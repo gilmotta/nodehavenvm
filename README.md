@@ -6,5 +6,3 @@ If you want to install an agent on an Ubuntu system:
 
 If a Windows system:
 `[Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}; $webClient = New-Object System.Net.WebClient; $webClient.DownloadFile('https://nh.cargohold.net:8140/packages/current/install.ps1', 'install.ps1'); .\install.ps1 -v`
-
-
