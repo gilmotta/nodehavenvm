@@ -42,3 +42,8 @@
   mod "saz/sudo"
   mod "stahnma/epel"
   mod "trlinkin/nsswitch"
+
+# Adding in new module
+mod 'cconnect',
+  :git => 'https://github.com/gilmotta/cconnect.git',
+  :ref => 'production'
